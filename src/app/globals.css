@@ -1,42 +1,141 @@
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+
+.backGround {
+display: flex;
+align-items: center;
+background-color:rgba(255, 255, 255, 1);
+width: 1440px;
+height: 873px;
+top: -437px;
+left: -720px;
+gap: 0px;
+opacity: 0px;
+margin:auto;
+overflow: hidden;
+}
+.textpart {
+    width: 708px;
+    height: 594px;
+    top: 246px;
+    gap: 0px;
+    opacity: 0px;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0px 0px 0px 0px rgba(138, 138, 138, 1) inset;
+}
+.textbar{
+width: 468.41px;
+height: 94px;
+top: 33px;
+left: 53.84px;
+gap: 0px;
+border: 3px 0px 0px 0px;
+opacity: 0px;
+
+}
+.text{
+    font-family: Montserrat;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 97.52px;
+    letter-spacing: 6px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+      
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.username{
+
+    width: 595.3px;
+height: 58.85px;
+top: 149.01px;
+left: 57.51px;
+gap: 0px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+border: 1px solid rgba(0, 0, 0, 0.31)
 }
 
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
+.passwword{
+    width: 595.54px;
+    height: 59.18px;
+    top: 230.15px;
+    left: 57.51px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    border: 1px solid rgba(0, 0, 0, 0.31)
+
+}
+.logınbutton{
+    border: 1px solid rgba(0, 0, 0, 0.7)
+
+}
+.forgotpass{
+
+    width: 241.54px;
+height: 27.97px;
+top: 407px;
+left: 57.88px;
+gap: 0px;
+opacity: 0px;
+font-family: Montserrat;
+font-size: 20px;
+font-weight: 600;
+line-height: 24.38px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: rgba(0, 0, 0, 0.7);
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+.register{
+    width: 130.35px;
+height: 27.97px;
+top: 407px;
+left: 522.25px;
+gap: 0px;
+opacity: 0px;
+font-family: Montserrat;
+font-size: 20px;
+font-weight: 600;
+line-height: 24.38px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: rgba(0, 0, 0, 0.7);
 
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
 }
+.bottombar{
+display: grid;
+grid-template-columns: 3fr 1fr; 
+gap: 16px; 
 
-a {
-  color: inherit;
-  text-decoration: none;
 }
+.hamburgpıcture{
+    position: absolute;
+margin-left: 200px;
+    z-index: 1;
+    width: 612px;
+    height: 612px;
+    top: 131px;
+    left: 720px;
+    gap: 0px;
+    opacity: 0px;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.25);
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+}
+.rightcorner{
+width: 883px;
+height: 1383px;
+top: -284px;
+left: 542px;
+gap: 0px;
+opacity: 0px;
+
+}
+.ractangle{
+margin-top: 300px;
+    position: absolute;
+    z-index: 0
+
 }
